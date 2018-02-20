@@ -1,0 +1,53 @@
+<div class="row justify-content-sm-center">
+  <div class="col-sm-6">
+    <h2>Email Sender</h2>
+    <mat-divider></mat-divider>
+    <p>All form is required, please fill out:</p>
+    <form #emailForm="ngForm" (ngSubmit)="sendEmail(emailForm)" class="pt-2">
+      <div class="form-group">
+        <mat-form-field>
+          <input type="text" name="name" matInput placeholder="Your Name" minlength="3" [(ngModel)]="email.Name">
+        </mat-form-field>
+      </div>
+      <div class="form-group">
+        <mat-form-field>
+          <input type="text" name="email" matInput placeholder="Email" minlength="3" [(ngModel)]="email.Sender">
+        </mat-form-field>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="form-group">
+            <mat-form-field>
+              <input type="password" name="password" matInput placeholder="Your password" required minlength="3" [(ngModel)]="email.SenderPassword">
+            </mat-form-field>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="form-group">
+            <mat-form-field>
+              <input type="password" name="passwordvalidating" matInput placeholder="Validate password" required minlength="3">
+            </mat-form-field>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <mat-form-field>
+          <input type="text" name="recipient" matInput placeholder="Recipient" required minlength="3" [(ngModel)]="email.Recipient">
+        </mat-form-field>
+      </div>
+      <div class="form-group">
+        <mat-form-field>
+          <input type="text" name="subject" matInput placeholder="Subject" required minlength="3" [(ngModel)]="email.Subject">
+        </mat-form-field>
+      </div>
+      <div class="form-group">
+        <mat-form-field>
+          <textarea matInput name="message" id="" cols="30" rows="10" placeholder="Your message" required minlength="10" [(ngModel)]="email.Message"></textarea>
+        </mat-form-field>
+      </div>
+      <div class="form-group d-flex flex-row-reverse">
+        <button type="submit" mat-raised-button color="primary" [disabled]="!emailForm.valid">Send</button>
+      </div>
+    </form>
+  </div>
+</div>

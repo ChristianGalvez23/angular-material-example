@@ -37,10 +37,12 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * Angular Services
 * Angular HttpClient
 * Angular Http Interceptor
-* Communication to C# Web API in .NET Core 2.0
-* C# WebAPI CORS implementation
-* C# Models validation
-* C# SMTP implementation
-* C# Data Annotations
+* Communication to C# Web API in .NET Core 2.0 (See link to project below)
+* C# WebAPI CORS implementation (See link to project below)
+* C# Models validation (See link to project below)
+* C# SMTP implementation (See link to project below)
+* C# Data Annotations (See link to project below)
+
+***Passwords are not saved**, you can check the WebAPI Code.*
 
 *FYI: This project connect with a WebAPI uploaded on my github too, so the link is: https://github.com/ChristianGalvez23/CSharp-WebAPI-CORS*

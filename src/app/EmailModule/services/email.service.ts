@@ -35,4 +35,5 @@ export class EmailService {
     this.snackBar.open(message, action, {
       duration: 2000
     });
+  }
 }

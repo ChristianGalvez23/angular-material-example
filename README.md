@@ -43,4 +43,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * C# SMTP implementation
 * C# Data Annotations
 
-*FYI: This project connect with an WebAPI uploaded on my github too, so the link is: https://github.com/ChristianGalvez23/CSharp-WebAPI-CORS*
+*FYI: This project connect with a WebAPI uploaded on my github too, so the link is: https://github.com/ChristianGalvez23/CSharp-WebAPI-CORS*
